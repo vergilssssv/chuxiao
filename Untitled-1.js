@@ -1,8 +1,7 @@
 window.open=setBGC();
 function setBGC() {
 	
-	//var hour = t.getHours();
-	var hour = 17;
+	var hour = t.getHours();
 	switch(hour){
 		case 10:document.getElementById("imgBg").style.background = "#0000ff";
 			break;
